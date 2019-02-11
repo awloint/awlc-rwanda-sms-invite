@@ -26,6 +26,6 @@ $phone = $_POST['phone'];
 $friendName = $_POST['friendName'];
 
 // send SMS
-$SMS->send($from, "Hi {$friendName}! I think African Women in Leadership Conference is for you. Here is a Conference where women like you and international stakeholders meet for advancing women’s leadership through Reaching Resolutions and Capacity Building. You can learn more about this International Convention at awlo.org/awlc", $phone);
+$SMS->send($from, "Hi {$friendName}! I think African Women in Leadership Conference is for you. Here is a Conference where women like you and international stakeholders meet for advancing women's leadership through Reaching Resolutions and Capacity Building. You can learn more about this International Convention at awlo.org/awlc", $phone);
 
 echo json_encode('success');
