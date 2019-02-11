@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', e => {
         .then(data => {
           if (data === 'success') {
             swal('Invite Sent', 'Your invite was sent successfully!', 'success')
-            //   setTimeout(function () {
-            //       window.location = 'https://hopebehindbarsafrica.org/'
-            //   }, 3000)
+              setTimeout(function () {
+                  window.location = 'https://awlo.org/awlc/inviteafriend'
+              }, 3000)
           }
         })
         .catch(error => {
