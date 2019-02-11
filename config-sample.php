@@ -1,0 +1,3 @@
+<?php
+// SMS Configuration
+$smstoken = '';
